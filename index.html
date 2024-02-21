@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/darkmode.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!--FUENTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,200&display=swap"
+        rel="stylesheet">
+
+    <title>Paul Portfolio</title>
+</head>
+
+<body class="normal">
+    <div class="container">
+
+
+        <section class="Principal">
+            <!--BOTON DE MODO OSCURO-->
+
+            <header>
+                <button onclick="toggleIcon()"><i id="btn" class="fa-solid fa-sun"></i></button>
+            </header>
+
+            <!--PRESENTACION PERSONAL-->
+
+            <section class="presentation">
+                <div class="presentationContainer">
+                    <div class="fotoPerfil">
+                        <img src="img/imagePersonalBlue.jpg" alt=""> <!--FOTO DE PERFIL-->
+                    </div>
+
+                    <div class="info">
+                        <h1>Paul Cartagena</h1>
+                        <p>I'm a software developer and web solutions engineer.</p>
+
+                        <div class="resume">
+                            <button>
+                                <a href="files/CurriculumPaul.pdf" download="CV_Paul">
+                                    <i class="fa-solid fa-file"></i> Resume
+                                </a>
+                            </button>
+                        </div>
+                        
+                    </div>
+
+                    
+                </section>
+                
+            </section>
+            
+            <!--LINEA DIVISORA-->
+
+            <div class="line">
+                <hr>
+            </div>
+
+
+        <!--EXPERIENCIA-->
+
+        <section class="experience">
+
+            <div class="headerExperience">
+                <h2 class="blue">Experience</h2>
+                <i class="fa-solid fa-briefcase"></i>
+            </div>
+
+            <div class="bodyExperience">
+
+                <h3 class="">Back-End Developer</h3> <!--ROL-->
+                <p class="date">Jan 2021 - Dec 2023</p>
+                <ul>
+                    <li>During my collaboration as a developer on a project dedicated to the healthcare field,
+                        I had the privilege of significantly contributing to the transformation of healthcare
+                        towards patients.</li>
+
+                    <li>In my role as a collaborator and developer on a project aimed at a public institution,
+                        I led the creation of an attendance system that revolutionized student attendance control.</li>
+                </ul>
+
+            </div>
+        </section>
+
+        <!--PROYECTOS EN LOS QUE HE TRABAJADO-->
+
+        <section class="projects">
+
+            <div class="headerProjects">
+                <h2 class="blue">Projects</h2>
+                <i class="fa-regular fa-star-half-stroke"></i>
+            </div>
+
+            <article>
+                <a href="">
+                    <div class="pro">
+                        <div class="fotoProject">
+                            <img src="img/iamed.png" width="" alt=""> <!--FOTO DEL PROYECTOL-->
+                        </div>
+                    </div>
+                </a>
+
+                <div class="desc">
+                    <h2 >IAmed</h2>
+                    <p>It's an app for healthcare professionals, aiming to enhance medical care.</p>
+
+                    <div class="iconsDesc">
+
+                        <i class="fa-brands fa-php"></i>
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-html5"></i>
+
+                    </div>
+
+                    <div class="dic">
+                        <div class="code">
+                            <a href="#">Code</a>
+                        </div>
+
+                        <div class="live">
+                            <a href="#">Live<i class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <a href="">
+                    <div class="pro">
+                        <div class="fotoProject">
+                            <img src="img/asistencia.png" width="350px" alt=""> <!--FOTO DE PERFIL-->
+                        </div>
+                    </div>
+                </a>
+
+                <div class="desc">
+                    <h2>Attendance System</h2>
+                    <p class="descP">It's a system that facilitates the control of student attendance.</p>
+
+                    <div class="iconsDesc">
+
+                        <i class="fa-brands fa-php"></i>
+                        <i class="fa-brands fa-js"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-html5"></i>
+
+                    </div>
+
+                    <div class="dic">
+                        <div class="code">
+                            <a href="#">Code</a>
+                        </div>
+
+                        <div class="live">
+                            <a href="#">Live<i class="fa-solid fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+        <!--REDES SOCIALES-->
+
+        <section class="socials">
+
+            <div class="headerSocials">
+                <h2 class="blue">Socials</h2>
+                <i class="fa-solid fa-at"></i>
+            </div>
+
+            <div class="iconsSocials">
+                <a class="linkedin" href="https://www.linkedin.com/in/paulcartagena04/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i>Linkedin</a>
+                <a class="gitHub" href="https://github.com/PaulCartagen4?tab=repositories" target="_blank"><i
+                        class="fa-brands fa-github"></i>GitHub</a>
+            </div>
+        </section>
+
+        <!--EMAIL-->
+        <footer class="email">
+            <div class="headerEmail">
+                <h2 class="blue">Email</h2>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="bodyEmail">
+                <div class="blockIn">
+                    <input type="text" value="garycartagena04@gmail.com" readonly>
+                </div>
+
+                <div class="iconsEmail">
+                    <a href="mailto:garycartagena04@gmail.com">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </a>
+
+                    <a id="copyEmail" onclick="copiarEmail('garycartagena04@gmail.com')">
+                        <i class="fa-solid fa-copy"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+
+
+    </div>
+    <script src="js/codigo.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+/* CLASE GENERAL QUE CAMBIA COLORES DEL BODY */
+.dark {
+    color: #fff; 
+    background-color: #1f2937;
+}
+
+/* CAMBIA EL COLOR DEL ICONO AL PASAR A MODO DARK*/
+.botonDark {
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+/* COLOR DEL BOTON RESUME */
+.buttonDark button a {
+    background-color: #5c60de;
+    color: #fff;
+}
+
+.buttonDark button a:hover {
+    background-color: #5256d4;
+}
+
+
+/* CAMBIA EL COLOR DEL NOMBRE */
+.headerDark {
+    color: #fff;
+}
+
+/* CAMBIA EL COLOR DE LA DESCRIPCION */
+.descDark {
+    color: #fff;
+}
+
+/* CAMBIA EL BORDE DE LA FOTO PERSONAL */
+.contornoPerfil {
+    border: 8px solid #1d2735;
+}
+
+
+/**/
+.liDark li {
+    color: #fff;
+    opacity: 0.6;
+}
+
+/* DESCRIPCION DE PROYECTOS*/
+.subs{
+    color: #fff;
+}
+
+.subs p {
+    color: #fff;
+    opacity: 0.6;
+}
+
+/* CAMBIA EL COLOR DE FONDO DE IMGS PROYECTOS*/
+.contornoProject {
+    background: #2b3544; 
+ }
+
+
+/* BOTONES DEL PROYECTO */
+ .liveDark {
+    background-color: #fff;
+ }
+
+ .liveDark a {
+    color: #000;
+ }
+
+ .codeDark {
+    background-color: #fff;
+ }
+ 
+ .codeDark a {
+    color: #000;
+ }
+
+ /* REDES SOCIALES */
+
+ .redsDark a{
+    border: 3px solid rgba(255, 255, 255, 0.1);
+ }
+
+ .redsDark a:hover{
+    border: 3px solid rgba(255, 255, 255, 0.3);
+ }
+
+ .gitDark {
+    color: #fff; 
+ }
+
+ /* EMAIL */
+
+ .blockDark input {
+    background-color: #2b3544; 
+    color: rgba(255, 255, 255, 0.6)
+ }
+
+ .icnDark a {
+    background-color: #5c60de;
+    color: rgba(255, 255, 255, 0.6);
+ }
+
+ .icnDark a:hover{
+    background-color: #5256d4;
+ }
+
+
+
