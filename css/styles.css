@@ -201,8 +201,14 @@ article {
   position: absolute;
   bottom: 0;
   right: 0;
-  left: 35px;
-  top: 35px;
+  left: 30px;
+  top: 30px;
+  transition: left 0.3s ease, top 0.3s ease;
+}
+
+.fotoProject img:hover {
+  left: 25px;
+  top: 25px;
 }
 
 .headerProjects {
@@ -258,49 +264,6 @@ article {
   margin: 0;
 }
 
-.dic { /*CONTIENE AL DIV CODE Y LIVE*/
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-}
-
-.code {
-  border: 1px solid #0f172a;
-  border-radius: 5px;
-  display: inline-block;
-  width: 50px;
-  background-color: #000;
-  padding: 8px 12px;
-}
-
-.code a {
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-  color: #fff;
-}
-
-.live {
-  border: 1px solid #0f172a;
-  border-radius: 5px;
-  width: 70px;
-  background-color: #000;
-  padding: 8px 12px;
-}
-
-.live a {
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 600;
-  color: #fff;
-}
-
-.live i {
-  padding-left: 10px;
-}
-
-
-
 /* SECCION DE REDES SOCIALES*/
 
 .socials {
@@ -342,6 +305,7 @@ article {
 
 .iconsSocials a:hover {
   border: 3px solid rgba(0, 0, 0, 0.3);
+  background-color: #f2f2f2;
 }
 
 .iconsSocials i {
@@ -357,7 +321,6 @@ article {
 .gitHub {
   color: #000;
 }
-
 
 /* SECCION DE EMAIL FOOTER*/
 
@@ -424,8 +387,6 @@ article {
 .iconsEmail i {
   font-size: 20px;
 }
-
-/* DARK MODE */
 
 
 

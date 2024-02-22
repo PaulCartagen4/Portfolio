@@ -93,9 +93,6 @@ function toggleIcon() {
     } 
   }
 
-
-
-
   // COPIAR EL CORREO ELECTRONICO DEL EMAIL
   
   function copiarEmail(email) {
