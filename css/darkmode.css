@@ -53,25 +53,9 @@
 }
 
 /* CAMBIA EL COLOR DE FONDO DE IMGS PROYECTOS*/
+
 .contornoProject {
     background: #2b3544; 
- }
-
-/* BOTONES DEL PROYECTO */
- .liveDark {
-    background-color: #fff;
- }
-
- .liveDark a {
-    color: #000;
- }
-
- .codeDark {
-    background-color: #fff;
- }
- 
- .codeDark a {
-    color: #000;
  }
 
  /* REDES SOCIALES */
@@ -82,6 +66,7 @@
 
  .redsDark a:hover{
     border: 3px solid rgba(255, 255, 255, 0.3);
+    background: #2b3544; 
  }
 
  .gitDark {
