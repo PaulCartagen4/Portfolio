@@ -11,10 +11,10 @@ body {
 }
 
 :root {
-  --primary-color: #97a0f9;
-  --button-bg: #e6ecff;
-  --button-bg-hover: #f0f5ff;
-  --border-radius-5: 5px;
+  --primary-color: #818cf8;
+  --button-bg: #e6ecff; /*Fondo Standar*/
+  --button-bg-hover: #f0f5ff; /*Fondo Hover*/
+  --border-radius-standar: 7px; 
 }
 
 
@@ -108,7 +108,7 @@ button {
   color: var(--primary-color);
   font-weight: 600;
   border: none;
-  border-radius: 5px; 
+  border-radius: var(--border-radius-standar); 
   padding: 7px 25px; 
   transition: background-color 0.3s; 
 }
@@ -159,17 +159,17 @@ hr {
 .date {
   margin: 0;
   opacity: 0.6;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .bodyExperience ul {
   padding-left: 20px;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
-.bodyExperience li {
+.bodyExperience ul li {
   font-size: 16px;
 }
 
@@ -191,12 +191,12 @@ article {
   width: 350px;
   height: 220px;
   overflow: hidden;
-  border-radius : 5px;
+  border-radius :var(--border-radius-standar);
   background: var(--button-bg-hover);
 }
 
 .fotoProject img {
-  border-radius: 5px 0;
+  border-radius: var(--border-radius-standar);
   width: 100%;
   position: absolute;
   bottom: 0;
@@ -297,7 +297,7 @@ article {
 .iconsSocials a {
   text-decoration: none; 
   border: 3px solid rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
+  border-radius: var(--border-radius-standar);
   padding: 18px;
   display: flex;
   transition: border 0.3s;
@@ -362,7 +362,7 @@ article {
   background-color: #f2f2f2;
   color: rgba(0, 0, 0, 0.7);
   border: none;
-  border-radius: 5px; 
+  border-radius: var(--border-radius-standar); 
 }
 
 .iconsEmail {
@@ -375,7 +375,7 @@ article {
   color: var(--primary-color);
   padding: 10px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: var(--border-radius-standar);
   text-decoration: none;
   cursor: pointer;
 }
